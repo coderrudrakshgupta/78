@@ -1,0 +1,37 @@
+<html>
+    <head>
+    <title>
+        MY FAMILY BOOK
+    </title>
+    <body>
+        <img id="family" src="blob:https://web.whatsapp.com/fff6c209-7f15-4197-9c70-ee4344263542">
+        <div>
+            <button type="button" onclick="nextslide()"> next  </button>
+     </div>
+     <script>
+         var images = [
+         blob:https://web.whatsapp.com/fff6c209-7f15-4197-9c70-ee4344263542,
+         blob:https://web.whatsapp.com/986afc61-e7d8-48b8-a7fe-548c30e2584d,
+         blob:https://web.whatsapp.com/03f31a95-e610-491c-b2c8-999480ce1837,
+         blob:https://web.whatsapp.com/740add10-4a0e-43ee-94b6-a033838c6d62,
+];
+
+var i = 0;
+function nextslide() { 
+ 
+   if(i == 9)
+     {
+       i=0;
+     }
+   
+    document.getElementById("family").src = images[i];
+  i++;
+ 
+}
+
+
+
+     </script>
+    </body>
+    </head>
+</html>
